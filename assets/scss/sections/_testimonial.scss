@@ -1,0 +1,362 @@
+// <!--Sc Testimonial CSS -->
+.sc-testimonial-area {
+    position: relative;
+    .slick-list {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+    .sc-testimonial-item {
+        .quote-icon_1 {
+            font-size: 60px;
+            margin-bottom: -15px;
+            display: block;
+            color: #ef9334;
+        }
+        img {
+            max-width: 65px;
+            border-radius: 65px;
+            margin: 0 auto 15px;
+        }
+        .description {
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+        .testimonial-image2 {
+            float: left;
+            img {
+                margin-right: 10px;
+            }
+        }
+        a {
+            font-family: "Varela", sans-serif;
+            color: $titleColor;
+            @include transition();
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+    .sc-slick-slide .slick-arrow::before {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 40px;
+    }
+    .test_left_imgage {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .test_left_imgage1 {
+        position: absolute;
+        left: 0;
+        bottom: 30%;
+    }
+    .test_left_imgage2 {
+        position: absolute;
+        left: 16%;
+        bottom: 0;
+    }
+    .test_right_imgage {
+        position: absolute;
+        right: 10%;
+        top: 20%;
+    }
+    .test_right_imgage1 {
+        position: absolute;
+        right: 0;
+        bottom: 30%;
+    }
+    .test_right_imgage2 {
+        position: absolute;
+        right: 16%;
+        bottom: 0;
+    }
+    .sc-slick-slide {
+        .slick-arrow {
+            border: none;
+            padding: 0;
+            font-size: 0;
+            position: absolute;
+            transform: translateY(-50%);
+            z-index: 9;
+            @include transition();
+            &::before {
+                content: "\ea60";
+                position: absolute;
+                top: 0;
+                left: -5px;
+                font-family: "remixicon";
+                color: rgba($color: #4d4c4c, $alpha: 0.5);
+                font-size: 20px;
+                z-index: 9;
+                text-align: center;
+                @include transition();
+            }
+            &:hover {
+                &:before {
+                    color: $titleColor;
+                }
+            }
+        }
+        .next {
+            &::before {
+                content: "\ea6c";
+            }
+        }
+        .prev {
+            bottom: 0;
+            &:before {
+                top: 0;
+                left: -35px;
+            }
+        }
+    }
+}
+// sc-testimonial-style2
+.sc-testimonial-style2 {
+    position: relative;
+    background: url(../images/banner/test-img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .slick-list {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+    .sc-testimonial-item {
+        .quote-icon_1 {
+            font-size: 60px;
+            margin-bottom: -15px;
+            display: block;
+            color: $yellowColor;
+        }
+        img {
+            max-width: 65px;
+            border-radius: 65px;
+            margin: 0 auto 15px;
+        }
+        .description {
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+        .testimonial-image2 {
+            float: left;
+            img {
+                margin-right: 10px;
+            }
+        }
+        a {
+            font-family: "Varela", sans-serif;
+            color: $whiteColor;
+            @include transition();
+            &:hover {
+                color: $yellowColor;
+            }
+        }
+        .digination {
+            font-size: 14px;
+        }
+    }
+    .sc-slick-slide .slick-arrow::before {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 40px;
+    }
+    .test_left_imgage {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .test_left_imgage1 {
+        position: absolute;
+        left: 0;
+        bottom: 30%;
+    }
+    .test_left_imgage2 {
+        position: absolute;
+        left: 16%;
+        bottom: 0;
+    }
+    .test_right_imgage {
+        position: absolute;
+        right: 10%;
+        top: 20%;
+    }
+    .test_right_imgage1 {
+        position: absolute;
+        right: 0;
+        bottom: 30%;
+    }
+    .test_right_imgage2 {
+        position: absolute;
+        right: 16%;
+        bottom: 0;
+    }
+    .sc-slick-slide {
+        .slick-arrow {
+            border: none;
+            padding: 0;
+            font-size: 0;
+            position: absolute;
+            transform: translateY(-50%);
+            z-index: 9;
+            @include transition();
+            &::before {
+                content: "\ea60";
+                position: absolute;
+                top: 0;
+                left: -5px;
+                font-family: "remixicon";
+                color: rgba($color: #fff, $alpha: 0.5);
+                font-size: 20px;
+                z-index: 9;
+                text-align: center;
+                @include transition();
+            }
+            &:hover {
+                &:before {
+                    color: $whiteColor;
+                }
+            }
+        }
+        .next {
+            &::before {
+                content: "\ea6c";
+            }
+        }
+        .prev {
+            bottom: 0;
+            &:before {
+                top: 0;
+                left: -35px;
+            }
+        }
+    }
+}
+// sc-testimonial-style2
+.sc-testimonial-style3 {
+    position: relative;
+    background: url(../images/banner/test-img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .slick-list {
+        max-width: 860px;
+        margin: 0 auto;
+    }
+    .sc-testimonial-item {
+        .quote-icon_1 {
+            font-size: 60px;
+            margin-bottom: -15px;
+            display: block;
+            color: $yellowColor;
+        }
+        img {
+            max-width: 65px;
+            border-radius: 65px;
+            margin: 0 auto 15px;
+        }
+        .description {
+            font-size: 20px;
+            margin-bottom: 32px;
+        }
+        .testimonial-image2 {
+            float: left;
+            img {
+                margin-right: 10px;
+            }
+        }
+        a {
+            font-family: "Varela", sans-serif;
+            color: $whiteColor;
+            @include transition();
+            &:hover {
+                color: $yellowColor;
+            }
+        }
+        .digination {
+            font-size: 14px;
+        }
+    }
+    .sc-slick-slide .slick-arrow::before {
+        font-size: 18px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 40px;
+    }
+    .test_left_imgage {
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    .test_left_imgage1 {
+        position: absolute;
+        left: 0;
+        bottom: 30%;
+    }
+    .test_left_imgage2 {
+        position: absolute;
+        left: 16%;
+        bottom: 0;
+    }
+    .test_right_imgage {
+        position: absolute;
+        right: 10%;
+        top: 20%;
+    }
+    .test_right_imgage1 {
+        position: absolute;
+        right: 0;
+        bottom: 30%;
+    }
+    .test_right_imgage2 {
+        position: absolute;
+        right: 16%;
+        bottom: 0;
+    }
+    .sc-slick-slide {
+        .slick-arrow {
+            border: none;
+            padding: 0;
+            font-size: 0;
+            position: absolute;
+            transform: translateY(-50%);
+            z-index: 9;
+            @include transition();
+            &::before {
+                content: "\ea60";
+                position: absolute;
+                top: 0;
+                left: -5px;
+                font-family: "remixicon";
+                color: rgba($color: #fff, $alpha: 0.5);
+                font-size: 20px;
+                z-index: 9;
+                text-align: center;
+                @include transition();
+            }
+            &:hover {
+                &:before {
+                    color: $whiteColor;
+                }
+            }
+        }
+        .next {
+            &::before {
+                content: "\ea6c";
+            }
+        }
+        .prev {
+            bottom: 0;
+            &:before {
+                top: 0;
+                left: -35px;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.create {
+    display: inline-block;
+    margin-right: 30px;
+    a {
+        margin-bottom: 0;
+    }
+}
+.login-form {
+    input {
+        height: 55px !important;
+    }
+}
+.sc-register-box {
+    padding: 40px 50px 50px;
+    .create-title {
+        font-size: 40px;
+    }
+}
+
+select {
+    border: 1px solid rgba(114, 21, 250, 0.2);
+    width: 100%;
+    color: $bodyColor;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 15px;
+    border-radius: 5px;
+}
+.register-account {
+    .register-signin {
+        position: relative;
+        bottom: 6px;
+        a {
+            padding-left: 5px;
+            text-decoration: underline;
+            color: $titleColor;
+            transition: 0.4s;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+}

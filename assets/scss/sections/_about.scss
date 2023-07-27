@@ -1,0 +1,47 @@
+// <!--Sc About CSS -->
+.sc-about-area {
+    .sc-about-image {
+        position: relative;
+        margin-right: -120px;
+        animation: shakeY 5s ease-in-out infinite;
+        .about-image {
+            position: relative;
+            z-index: 3;
+        }
+        .about-image_1 {
+            position: absolute;
+            bottom: -33%;
+            right: 60px;
+            z-index: 9;
+        }
+        .circle-shape {
+            top: 36%;
+            position: absolute;
+            left: -42px;
+            width: 395px;
+            height: 395px;
+            border-radius: 395px;
+            display: inline-block;
+            background: $primaryColor;
+        }
+    }
+}
+// about-team-pages-area
+.about-team-pages-area {
+    .sc-ab-circle {
+        width: 480px;
+        height: 480px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        &.purple {
+            background: $secondaryColor;
+            left: 250px;
+        }
+        &.yelow {
+            background: $primaryColor;
+            right: 250px;
+        }
+    }
+}

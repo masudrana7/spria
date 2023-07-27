@@ -1,0 +1,34 @@
+// <!--Sc Business CSS -->
+.sc-business-section-area {
+    .business-image-area {
+        position: relative;
+        .business-img {
+            position: relative;
+            z-index: 3;
+        }
+        .business-img_1 {
+            position: absolute;
+            left: 50px;
+            top: -95px;
+        }
+    }
+    .check-list {
+        li {
+            color: $whiteColor;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1.5;
+            font-family: $titleFont;
+            display: flex;
+            i {
+                position: relative;
+                font-size: 18px;
+                color: $thirdColor;
+                margin-right: 20px;
+            }
+            span {
+                display: block;
+            }
+        }
+    }
+}

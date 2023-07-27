@@ -1,0 +1,54 @@
+// <!--Sc Counter CSS -->
+.sc-counter-area {
+    background: $darkColor;
+    .sc-counter-box {
+        position: relative;
+        &:before {
+            position: absolute;
+            content: "";
+            height: 40px;
+            right: 0;
+            top: 55px;
+            border-right: 1px solid $whiteColor0_8;
+        }
+        &.counter-border {
+            &:before {
+                display: none;
+            }
+        }
+        .sc-count {
+            color: $whiteColor;
+            font-size: 65px;
+            font-weight: 700;
+            font-family: $titleFont;
+        }
+        .count-title {
+            font-weight: 400;
+        }
+        .odometer {
+            position: relative;
+            top: -5px;
+        }
+    }
+    .shape_image1,
+    .shape_image {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .shape_image1 {
+        left: auto;
+        right: -35px;
+    }
+    &.style-two {
+        .sc-counter-box {
+            .odometer {
+                top: -2px;
+            }
+            .sc-count {
+                font-size: 40px;
+            }
+        }
+    }
+}

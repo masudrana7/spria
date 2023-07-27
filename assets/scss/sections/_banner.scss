@@ -1,0 +1,293 @@
+// <!--Sc Banner CSS -->
+.sc-banner-section-area {
+    background: $secondaryColor;
+    position: relative;
+    .sc-banner-item {
+        .banner-header-content {
+            max-width: 550px;
+            margin-left: 31.5%;
+            .banner-sub-title {
+                padding-right: 80px;
+            }
+            .banner-title {
+                text-transform: capitalize;
+            }
+        }
+        .banner-image {
+            position: relative;
+            margin-right: -120px;
+            .banner-img_1 {
+                position: absolute;
+                left: 15.5%;
+                top: -75px;
+            }
+            .banner-img_2 {
+                bottom: -16%;
+                position: absolute;
+                right: 17.5%;
+            }
+        }
+    }
+    a.popup-video {
+        color: $whiteColor;
+        position: relative;
+        margin-left: 25px;
+        i {
+            border: 1px solid #fff;
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 25px;
+            margin-right: 10px;
+            @include transition();
+        }
+        span {
+            position: relative;
+            &:before {
+                content: "";
+                position: absolute;
+                height: 1px;
+                background: $whiteColor;
+                top: 25px;
+                width: 0;
+                @include transition();
+            }
+        }
+        &:hover {
+            color: $primaryColor;
+            i {
+                border-color: $primaryColor;
+            }
+            span {
+                &:before {
+                    width: 100%;
+                    background-color: $primaryColor;
+                }
+            }
+        }
+    }
+}
+
+// sc-banner-section-area2
+.sc-banner-section-area2 {
+    background: #fefff5;
+    padding-bottom: 130px;
+    padding-top: 225px;
+    .banner-header-content {
+        max-width: 700px;
+        margin: 0 auto;
+        .secondary-btn {
+            margin: auto;
+        }
+    }
+    .banner-image {
+        position: relative;
+        z-index: 3;
+    }
+    .banner-shape {
+        position: absolute;
+        left: 0;
+        bottom: 90px;
+    }
+    .banner-shpae2 {
+        left: auto;
+        right: 0;
+    }
+}
+// sc-banner-section-area3
+.sc-banner-section-area3 {
+    background: $darkerColor;
+    position: relative;
+    .sc-banner-item {
+        .banner-header-content {
+            margin-left: 19.5%;
+        }
+    }
+    .banner-circle-shape2 {
+        background: $secondaryColor;
+        position: absolute;
+        width: 780px;
+        height: 780px;
+        top: -20%;
+        right: -5%;
+        border-radius: 50%;
+    }
+    .banner_image {
+        position: relative;
+        z-index: 2;
+        margin-left: 85px;
+    }
+    .banner_frame {
+        .frame_1 {
+            position: absolute;
+            left: 30%;
+            top: 16%;
+        }
+        .frame_2 {
+            position: absolute;
+            bottom: 95px;
+        }
+    }
+    .banner_image {
+        position: relative;
+        .banner-1 {
+            position: relative;
+            z-index: 3;
+            left: 12.5%;
+        }
+        .banner-2 {
+            position: absolute;
+            left: 36%;
+            top: 20px;
+        }
+    }
+}
+// sc-banner-section-area4
+.sc-banner-section-area4 {
+    background: $darkerColor;
+    position: relative;
+    .sc-banner-item {
+        .banner-header-content {
+            margin-left: 19.5%;
+        }
+    }
+    .banner-circle-shape2 {
+        background: $secondaryColor;
+        position: absolute;
+        width: 780px;
+        height: 780px;
+        top: -20%;
+        right: -5%;
+        border-radius: 50%;
+    }
+    .banner_image {
+        position: relative;
+        z-index: 2;
+        margin-left: 85px;
+    }
+    .banner_frame {
+        .frame_1 {
+            position: absolute;
+            left: 30%;
+            top: 16%;
+        }
+        .frame_2 {
+            position: absolute;
+            bottom: 95px;
+        }
+    }
+    .banner_image {
+        position: relative;
+        .banner-1 {
+            position: relative;
+            z-index: 3;
+            left: 12.5%;
+        }
+        .banner-2 {
+            position: absolute;
+            left: 36%;
+            top: 20px;
+        }
+    }
+}
+// sc-banner-section-area5
+.sc-banner-section-area5 {
+    background: #f5f9fb;
+    position: relative;
+    .sc-banner-shapes {
+        .sc-shape-one {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .sc-shape-two {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
+// sc-banner-section-area7
+.sc-banner-section-area7 {
+    .banner-header-content {
+        max-width: 500px;
+        .banner-video-area {
+            .popup-video {
+                background: linear-gradient(98.31deg, #eb1d36 8.58%, #b844ff 90.93%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                font-weight: 600;
+                font-size: 18px;
+                font-family: $titleFont;
+            }
+            i {
+                background: linear-gradient(98.31deg, #eb1d36 8.58%, #b844ff 90.93%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                border: 1px solid #eb1d36;
+                width: 33px;
+                height: 33px;
+                line-height: 33px;
+                border-radius: 50%;
+                text-align: center;
+                display: inline-block;
+            }
+        }
+    }
+}
+.banner-circle-shape {
+    position: absolute;
+    width: 880px;
+    height: 800px;
+    top: -20%;
+    right: -5%;
+    border-radius: 50%;
+    background: $primaryColor;
+}
+.bottom-skew-bg {
+    position: relative;
+    &:before {
+        position: absolute;
+        bottom: -130px;
+        left: 0;
+        width: 100%;
+        height: 268px;
+        content: "";
+        transform: skew(92deg) scale(1.5);
+        background: $secondaryColor;
+    }
+}
+// sc-banner-section-area6
+.sc-banner-section-area6 {
+    background: url(../images/banner/banner-bg11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .banner-header-content {
+        max-width: auto;
+        margin-left: 38.5%;
+        .banner-title {
+            max-width: 450px;
+        }
+    }
+    .sc-banner-style-two {
+        .sc-shape-style-one {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .sc-shape-style-two {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        .sc-shape-style-three {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}

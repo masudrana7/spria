@@ -1,0 +1,165 @@
+// <!--Sc Faq CSS -->
+.sc-faq-pages-area {
+    .accordion-item {
+        border: none;
+        margin-bottom: 15px;
+        padding: 8px 0;
+        background: #f8f7f7;
+        border-radius: 10px;
+        .accordion-header {
+            .accordion-button {
+                font-size: 18px;
+                color: #424242;
+                font-weight: 500;
+                position: relative;
+                background: #f8f7f7;
+                &:before {
+                    position: absolute;
+                    top: 15px;
+                    right: 25px;
+                    font-family: "remixicon";
+                    content: "\ea78";
+                    color: $titleColor;
+                    font-size: 20px;
+                    transform: rotate(-180deg);
+                }
+                &:not(.collapsed) {
+                    color: $primaryColor;
+                    box-shadow: none;
+                    &:before {
+                        content: "\ea4e";
+                        color: $primaryColor;
+                    }
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        .accordion-body {
+            padding-top: 0;
+            strong {
+                font-size: 16px;
+                color: $bodyColor;
+                font-weight: 400;
+            }
+        }
+    }
+}
+// sc-crypto-faq-section-area
+.sc-crypto-faq-section-area {
+}
+.sc-crypto-faq-style {
+    background: url(../images/banner/faq-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    .accordion-item {
+        border: none;
+        margin-bottom: 15px;
+        padding: 8px 0;
+        background: transparent !important;
+        border-radius: 10px;
+        .accordion-header {
+            .accordion-button {
+                font-size: 18px;
+                color: $whiteColor !important;
+                font-weight: 500;
+                position: relative;
+                background: transparent !important;
+                &:before {
+                    position: absolute;
+                    top: 15px;
+                    right: 25px;
+                    font-family: "remixicon";
+                    content: "\ea78";
+                    color: $whiteColor !important;
+                    font-size: 20px;
+                    transform: rotate(-180deg);
+                }
+                &:not(.collapsed) {
+                    color: $yellowColor !important;
+                    box-shadow: none;
+                    &:before {
+                        content: "\ea4e";
+                        color: $yellowColor !important;
+                    }
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        .accordion-body {
+            padding-top: 0;
+            strong {
+                display: block;
+                margin-top: 15px;
+                font-size: 16px;
+                color: $whiteColor0_8 !important;
+                font-weight: 400;
+            }
+        }
+    }
+}
+.sc-faq-style {
+    .accordion-item {
+        border: none;
+        padding: 8px 0;
+        background: transparent;
+        border-bottom: 1px solid rgba($color: #424242, $alpha: 0.4);
+        padding-bottom: 15px;
+        margin-bottom: 20px;
+        border-radius: 0;
+        .accordion-header {
+            .accordion-button {
+                font-size: 18px;
+                color: #121933;
+                font-weight: 700;
+                position: relative;
+                margin-bottom: 0;
+                padding: 0;
+                background: transparent;
+                &:before {
+                    position: absolute;
+                    top: -3px;
+                    right: 0;
+                    font-family: "remixicon";
+                    content: "\ea78";
+                    color: $titleColor;
+                    font-size: 20px;
+                    transform: rotate(-180deg);
+                }
+                &:not(.collapsed) {
+                    color: $blueColor;
+                    box-shadow: none;
+                    &:before {
+                        content: "\ea4e";
+                        color: $blueColor;
+                    }
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+                &:after {
+                    display: none;
+                }
+            }
+        }
+        .accordion-body {
+            padding: 0;
+            strong {
+                font-size: 16px;
+                color: $bodyColor;
+                font-weight: 400;
+            }
+        }
+    }
+}

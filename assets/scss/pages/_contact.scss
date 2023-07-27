@@ -1,0 +1,91 @@
+// <!--Sc Contact CSS -->
+.contact-page-service-box {
+    display: flex;
+    align-items: center;
+    .contact_icon {
+        i {
+            background: $secondaryColor;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            border-radius: 20px;
+            color: $whiteColor;
+            display: inline-block;
+            font-size: 30px;
+            margin-bottom: 30px;
+            margin-right: 30px;
+        }
+    }
+    .contact-service-box {
+        margin-top: -25px;
+        ul {
+            li {
+                color: #424242;
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 1.3;
+                font-family: $titleFont;
+                a {
+                    color: #424242;
+                    @include transition();
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+.contact-box {
+    background: $whiteColor;
+    padding: 40px 40px 30px;
+    box-shadow: 0 0 25px rgba(110, 106, 106, 0.07);
+    input {
+        &.from-control {
+            width: 100%;
+            background: #f9f5ff;
+            margin-bottom: 15px;
+            padding: 15px 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(114, 21, 250, 0.2);
+        }
+    }
+    ::placeholder {
+        color: $bodyColor;
+        opacity: 1;
+    }
+    :-ms-input-placeholder {
+        color: $bodyColor;
+    }
+    ::-ms-input-placeholder {
+        color: $bodyColor;
+    }
+    textarea {
+        width: 100%;
+        background: #f9f5ff;
+        padding: 20px 15px 50px 25px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        border: 1px solid rgba(114, 21, 250, 0.2);
+    }
+    h3 {
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+.login-button {
+    .input-box {
+        position: relative;
+        top: 15px;
+        input[type="checkbox"] {
+            position: relative;
+            top: -16px;
+            right: 10px;
+            border-radius: 3px;
+        }
+    }
+}

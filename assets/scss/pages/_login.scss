@@ -1,0 +1,120 @@
+.sc-login-box {
+    background: #f8f7f7;
+    padding: 40px 50px 25px;
+    max-width: 650px;
+    margin: 0 auto;
+    .sc-text {
+        a {
+            color: $titleColor;
+            transition: 0.4s;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+    .login-form {
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        textarea,
+        input {
+            background: $darkColor;
+            width: 100%;
+            background: transparent;
+            border: 1px solid rgba(114, 21, 250, 0.2);
+            color: $titleColor;
+            margin-bottom: 25px;
+            height: 45px;
+            padding: 0 15px;
+            border-radius: 5px;
+        }
+        textarea {
+            height: 150px;
+            padding: 10px 15px;
+        }
+    }
+    ::placeholder {
+        color: $bodyColor;
+        opacity: 1;
+    }
+    :-ms-input-placeholder {
+        color: $bodyColor;
+    }
+    ::-ms-input-placeholder {
+        color: $bodyColor;
+    }
+    .check-box {
+        margin-bottom: 20px;
+        input {
+            margin-right: 10px;
+        }
+        .login-password {
+            a {
+                color: $bodyColor;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .login-email {
+        position: relative;
+        &:after {
+            content: "";
+            position: absolute;
+            height: 1px;
+            left: 0;
+            right: 0;
+            width: 100%;
+            background: rgba(114, 21, 250, 0.2);
+            top: 14px;
+        }
+        p {
+            display: inline-block;
+            position: relative;
+            z-index: 3;
+            padding: 0 15px;
+            background: #f8f7f7;
+        }
+        a {
+            color: $bodyColor;
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+    }
+    .logout-button {
+        .Google {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.submit-btn {
+    display: block;
+    padding: 12px 35px;
+    margin-bottom: 25px;
+    background: $secondaryColor;
+    border-radius: 5px;
+    transition: 0.5s;
+    position: relative;
+    svg {
+        path {
+            fill: #fff;
+        }
+    }
+    .sc-facebook {
+        top: -2px;
+        position: relative;
+    }
+    &:hover {
+        background: $primaryColor;
+    }
+    input[type="submit"] {
+        color: #fff;
+        position: relative;
+        z-index: 3;
+        width: auto;
+    }
+}

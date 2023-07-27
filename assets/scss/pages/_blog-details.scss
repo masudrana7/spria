@@ -1,0 +1,260 @@
+// <!--Sc Blog Details CSS -->
+.details-content {
+    h2 {
+        margin-top: -15px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .des {
+        background: #16182d;
+        color: $bodyColor;
+        font-size: 20px;
+        padding: 40px 50px;
+    }
+}
+.details-title-item {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgba($color: #dddee1, $alpha: 0.7);
+
+    .details_btn {
+        h6 {
+            margin-right: 30px;
+        }
+    }
+    .details-social-list {
+        h6 {
+            font-weight: 700;
+        }
+        .list-icon {
+            position: relative;
+            bottom: 4px;
+            ul {
+                li {
+                    display: inline-block;
+                    padding-left: 10px;
+                    a {
+                        color: #424242;
+                        display: inline-block;
+                        i {
+                            position: relative;
+                            top: 0;
+                        }
+                        &:hover {
+                            color: $primaryColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.details-form-box {
+    background: #f8f8f8;
+    border-radius: 20px;
+    padding: 40px;
+    .form {
+        label {
+            display: block;
+        }
+        textarea,
+        input {
+            background: #ffffff;
+            border: 1px solid rgba(114, 21, 250, 0.2);
+            border-radius: 10px;
+            width: 100%;
+            padding: 15px 20px;
+            margin-bottom: 15px;
+        }
+        textarea {
+            height: 160px;
+        }
+    }
+    ::placeholder {
+        color: $bodyColor;
+        opacity: 1;
+    }
+    :-ms-input-placeholder {
+        color: $bodyColor;
+    }
+    ::-ms-input-placeholder {
+        color: $bodyColor;
+    }
+    h4 {
+        display: block;
+    }
+}
+.details-author-box {
+    margin-bottom: 30px;
+    .details-img {
+        margin-right: 25px;
+    }
+    .title-box {
+        .author-text {
+            .title {
+                margin-bottom: 5px;
+                display: block;
+                font-weight: 700;
+            }
+            span {
+                font-size: 14px;
+                display: block;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+.categories-area {
+    background: #f5f5f5;
+    border-radius: 20px;
+    padding: 30px;
+    .catergories-form {
+        padding: 10px 15px;
+        border: 1px solid rgba(62, 62, 62, 1);
+        border-radius: 5px;
+        position: relative;
+        input {
+            color: #3e3e3e;
+        }
+        button {
+            padding: 0 13px;
+            background: transparent;
+            height: 51px;
+            line-height: 51px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border: none;
+            font-size: 18px;
+            i {
+                color: $bodyColor;
+                position: relative;
+                @include transition();
+                top: 0;
+            }
+            &:hover {
+                color: $primaryColor;
+            }
+        }
+        ::placeholder {
+            color: $bodyColor;
+            opacity: 1;
+        }
+        :-ms-input-placeholder {
+            color: $bodyColor;
+        }
+        ::-ms-input-placeholder {
+            color: $bodyColor;
+        }
+    }
+    .categories-item {
+        .list {
+            li {
+                color: $whiteColor;
+                font-weight: 500;
+                line-height: 2.3;
+                a {
+                    color: $bodyColor;
+                    @include transition();
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+    .post-item {
+        .recent-content {
+            .recent-image {
+                img {
+                    border-radius: 15px;
+                }
+            }
+            .recent-text {
+                .calender-item {
+                    display: block;
+                    span {
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                    i {
+                        color: $secondaryColor;
+                        margin-right: 5px;
+                    }
+                }
+                a {
+                    color: $titleColor;
+                    font-weight: 500;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+    .categories-tag {
+        .list {
+            li {
+                display: inline-block;
+                padding-right: 15px;
+                @include transition();
+                a {
+                    color: $bodyColor;
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+        }
+    }
+}
+.details-btn {
+    .details-secondary,
+    .details-primary {
+        border: 1px solid transparent;
+        color: #424242;
+        font-size: 14px;
+        transition: 0.4s;
+        &:hover {
+            color: $primaryColor;
+        }
+    }
+    .details-secondary {
+        background: transparent;
+        border: 1px solid #dddee1;
+        color: $bodyColor;
+        &:hover {
+            background: $secondaryColor;
+            border-color: transparent;
+            color: $whiteColor;
+        }
+    }
+}
+.sc-blog-details {
+    .blog-item {
+        position: relative;
+    }
+    .blockquote {
+        background: #f5f5f5;
+        padding: 30px 50px;
+        border-radius: 20px;
+        margin: 5px 0 26px;
+        .description {
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 35px;
+            font-family: $titleFont;
+            margin-bottom: 20px;
+            margin-top: 30px;
+        }
+    }
+    .blog-item .blog-content .blog-list-menu .blog-list::before {
+        display: none;
+    }
+    .blog-item .blog-content .blog-list-menu .blog-list {
+        padding-left: 0;
+    }
+}

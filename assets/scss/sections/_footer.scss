@@ -1,0 +1,530 @@
+// <!--Sc Footer CSS -->
+.sc-footer-section {
+    background: $titleColor;
+    p,
+    a {
+        color: rgba($color: #ffffff, $alpha: 0.8);
+    }
+    .padding-bottom {
+        padding-bottom: 35px;
+    }
+    .footer-title {
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .footer-about {
+        .about-icon {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                padding-right: 5px;
+                i {
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    display: inline-block;
+                    background: $bodyColor;
+                    text-align: center;
+                    border-radius: 3px;
+                    @include transition();
+                    font-size: 18px;
+                    &:hover {
+                        background: $primaryColor;
+                    }
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .footer-menu-area {
+        .footer-menu-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                line-height: 30px;
+                padding-bottom: 12px;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                a {
+                    @include transition();
+                    &:hover {
+                        color: $primaryColor;
+                    }
+                }
+            }
+            i {
+                color: $whiteColor;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            .footer-map {
+                font-size: 16px;
+                font-weight: 400;
+                color: $whiteColor0_8;
+                span {
+                    display: block;
+                    padding-left: 30px;
+                    margin-top: -30px;
+                }
+            }
+        }
+    }
+    .footer-subscribe {
+        .footer-des {
+            margin-bottom: 10px;
+        }
+        .subscribe-form {
+            margin-bottom: 50px;
+            position: relative;
+            input {
+                height: 52px;
+                width: 100%;
+                padding: 0 20px;
+                background: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+            }
+            button {
+                background: $whiteColor;
+                color: $titleColor;
+                @include transition();
+                padding: 0 20px;
+                height: 40px;
+                line-height: 0;
+                color: $titleColor;
+                text-align: center;
+                @include transition();
+                border: 1px solid #fff;
+                margin-top: 18px;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .copyright-area {
+        .border-top {
+            border-color: rgba($color: #616161, $alpha: 0.9) !important;
+        }
+        .copyright-text {
+            padding: 18px 0;
+            a,
+            p {
+                color: rgba($color: #fff, $alpha: 0.8);
+                margin: 0;
+            }
+            a {
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+}
+// sc-footer-style-two
+.sc-footer-style-two {
+    background: $titleColor;
+    p,
+    a {
+        color: rgba($color: #ffffff, $alpha: 0.8);
+    }
+    .padding-bottom {
+        padding-bottom: 35px;
+    }
+    .footer-title {
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .footer-about {
+        .about-icon {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                padding-right: 5px;
+                i {
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    display: inline-block;
+                    background: $bodyColor;
+                    text-align: center;
+                    border-radius: 3px;
+                    @include transition();
+                    font-size: 18px;
+                    &:hover {
+                        background: $blueColor;
+                    }
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .footer-menu-area {
+        .footer-menu-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                line-height: 30px;
+                padding-bottom: 12px;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                a {
+                    @include transition();
+                    &:hover {
+                        color: $blueColor;
+                    }
+                }
+            }
+            i {
+                color: $whiteColor;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            .footer-map {
+                font-size: 16px;
+                font-weight: 400;
+                color: $whiteColor0_8;
+                span {
+                    display: block;
+                    padding-left: 30px;
+                    margin-top: -30px;
+                }
+            }
+        }
+    }
+    .footer-subscribe {
+        .footer-des {
+            margin-bottom: 10px;
+        }
+        .subscribe-form {
+            margin-bottom: 50px;
+            position: relative;
+            input {
+                height: 52px;
+                width: 100%;
+                padding: 0 20px;
+                background: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+            }
+            button {
+                background: $whiteColor;
+                color: $titleColor;
+                @include transition();
+                padding: 0 20px;
+                height: 40px;
+                line-height: 0;
+                color: $titleColor;
+                text-align: center;
+                @include transition();
+                border: 1px solid #fff;
+                margin-top: 18px;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .copyright-area {
+        .border-top {
+            border-color: rgba($color: #616161, $alpha: 0.9) !important;
+        }
+        .copyright-text {
+            padding: 18px 0;
+            a,
+            p {
+                color: rgba($color: #fff, $alpha: 0.8);
+                margin: 0;
+            }
+            a {
+                &:hover {
+                    color: $blueColor;
+                }
+            }
+        }
+    }
+}
+// sc-footer-style-three
+.sc-footer-style-three {
+    background: $titleColor;
+    p,
+    a {
+        color: rgba($color: #ffffff, $alpha: 0.8);
+    }
+    .padding-bottom {
+        padding-bottom: 35px;
+    }
+    .footer-title {
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .footer-about {
+        .about-icon {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                padding-right: 5px;
+                i {
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    display: inline-block;
+                    background: $bodyColor;
+                    text-align: center;
+                    border-radius: 3px;
+                    @include transition();
+                    font-size: 18px;
+                    &:hover {
+                        background: $yellowColor;
+                        color: $titleColor;
+                    }
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .footer-menu-area {
+        .footer-menu-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                line-height: 30px;
+                padding-bottom: 12px;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                a {
+                    @include transition();
+                    &:hover {
+                        color: $yellowColor;
+                    }
+                }
+            }
+            i {
+                color: $whiteColor;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            .footer-map {
+                font-size: 16px;
+                font-weight: 400;
+                color: $whiteColor0_8;
+                span {
+                    display: block;
+                    padding-left: 30px;
+                    margin-top: -30px;
+                }
+            }
+        }
+    }
+    .footer-subscribe {
+        .footer-des {
+            margin-bottom: 10px;
+        }
+        .subscribe-form {
+            margin-bottom: 50px;
+            position: relative;
+            input {
+                height: 52px;
+                width: 100%;
+                padding: 0 20px;
+                background: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+            }
+            button {
+                background: $whiteColor;
+                color: $titleColor;
+                @include transition();
+                padding: 0 20px;
+                height: 40px;
+                line-height: 0;
+                color: $titleColor;
+                text-align: center;
+                @include transition();
+                border: 1px solid #fff;
+                margin-top: 18px;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .copyright-area {
+        .border-top {
+            border-color: rgba($color: #616161, $alpha: 0.9) !important;
+        }
+        .copyright-text {
+            padding: 18px 0;
+            a,
+            p {
+                color: rgba($color: #fff, $alpha: 0.8);
+                margin: 0;
+            }
+            a {
+                &:hover {
+                    color: $yellowColor;
+                }
+            }
+        }
+    }
+}
+// sc-footer-style-three
+.sc-footer-style-four {
+    background: $titleColor;
+    p,
+    a {
+        color: rgba($color: #ffffff, $alpha: 0.8);
+    }
+    .padding-bottom {
+        padding-bottom: 35px;
+    }
+    .footer-title {
+        font-size: 20px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: 30px;
+    }
+    .footer-about {
+        .about-icon {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                display: inline-block;
+                padding-right: 5px;
+                i {
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    display: inline-block;
+                    background: $bodyColor;
+                    text-align: center;
+                    border-radius: 3px;
+                    @include transition();
+                    font-size: 18px;
+                    &:hover {
+                        background: $redColor;
+                        color: $whiteColor;
+                    }
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .footer-menu-area {
+        .footer-menu-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li {
+                line-height: 30px;
+                padding-bottom: 12px;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                a {
+                    @include transition();
+                    &:hover {
+                        color: $redColor;
+                    }
+                }
+            }
+            i {
+                color: $whiteColor;
+                margin-right: 10px;
+                font-size: 18px;
+            }
+            .footer-map {
+                font-size: 16px;
+                font-weight: 400;
+                color: $whiteColor0_8;
+                span {
+                    display: block;
+                    padding-left: 30px;
+                    margin-top: -30px;
+                }
+            }
+        }
+    }
+    .footer-subscribe {
+        .footer-des {
+            margin-bottom: 10px;
+        }
+        .subscribe-form {
+            margin-bottom: 50px;
+            position: relative;
+            input {
+                height: 52px;
+                width: 100%;
+                padding: 0 20px;
+                background: transparent;
+                border: 1px solid #fff;
+                color: #fff;
+            }
+            button {
+                background: $whiteColor;
+                color: $titleColor;
+                @include transition();
+                padding: 0 20px;
+                height: 40px;
+                line-height: 0;
+                color: $titleColor;
+                text-align: center;
+                @include transition();
+                border: 1px solid #fff;
+                margin-top: 18px;
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .copyright-area {
+        .border-top {
+            border-color: rgba($color: #616161, $alpha: 0.9) !important;
+        }
+        .copyright-text {
+            padding: 18px 0;
+            a,
+            p {
+                color: rgba($color: #fff, $alpha: 0.8);
+                margin: 0;
+            }
+            a {
+                &:hover {
+                    color: $redColor;
+                }
+            }
+        }
+    }
+}

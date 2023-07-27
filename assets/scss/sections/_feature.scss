@@ -1,0 +1,180 @@
+// <!--Sc Feature CSS -->
+.sc-feature-section-area {
+    position: relative;
+    .feature-content-box {
+        display: flex;
+        .feature-icon {
+            background: $primaryColor;
+            min-width: 70px;
+            height: 70px;
+            line-height: 70px;
+            text-align: center;
+            display: inline-block;
+            border-radius: 70px;
+            margin-right: 30px;
+            margin-top: 5px;
+            svg {
+                @include transition();
+            }
+            &:hover {
+                svg {
+                    -webkit-transform: scale(-1) rotate(180deg);
+                    transform: scale(-1) rotate(180deg);
+                }
+            }
+        }
+        .sc-feature-text {
+            a {
+                font-weight: 700;
+                color: $titleColor;
+                @include transition();
+                &:hover {
+                    color: $primaryColor;
+                }
+            }
+        }
+    }
+    .feature-image-area {
+        position: relative;
+        margin-right: -120px;
+        .feature-img {
+            position: relative;
+            z-index: 2;
+        }
+        .feature-img_1 {
+            position: absolute;
+            bottom: -20px;
+            z-index: 22;
+            left: -30px;
+        }
+        .feature-shape {
+            position: absolute;
+            bottom: -123px;
+            width: 230px;
+            height: 260px;
+            margin: 20px;
+            clip-path: circle(45% at 50% 1%);
+            background: $secondaryColor;
+            right: 40px;
+        }
+    }
+}
+
+// .sc-feature-area2
+.sc-feature-area2 {
+    .feature-content-box {
+        .feature-icon {
+            background: $thirdColor;
+        }
+    }
+    .feature-image-area {
+        .feature-shape {
+            background: $primaryColor;
+        }
+    }
+}
+// .sc-feature-area3
+.sc-feature-section-area3 {
+    .feature-image-area {
+        position: relative;
+        .feature-img {
+            position: relative;
+            z-index: 3;
+        }
+        .feature-img_1 {
+            position: absolute;
+            bottom: -55px;
+            right: 55%;
+            z-index: 9;
+        }
+        .feature-circle-shape {
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 450px;
+            height: 450px;
+            left: 31.5%;
+            border-radius: 50%;
+            background: $greenColor;
+        }
+    }
+}
+// .sc-feature-area4
+.sc-feature-section-area4 {
+    .sc-feature-image {
+        position: relative;
+        .feature-image {
+            position: relative;
+            z-index: 9;
+        }
+        .feature-image_1 {
+            position: absolute;
+            bottom: -50px;
+            left: 22%;
+            z-index: 9;
+        }
+        .feature-circle-shape {
+            position: absolute;
+            width: 430px;
+            height: 430px;
+            border-radius: 50%;
+            background: $primaryColor;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            left: 31.5%;
+        }
+    }
+    .feature_check {
+        ul {
+            li {
+                color: $titleColor;
+                font-weight: 500;
+                font-size: 16px;
+                font-family: $titleFont;
+                i {
+                    color: $primaryColor;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+// .sc-feature-area5
+.sc-feature-section-area5 {
+    .sc-feature-image {
+        position: relative;
+        .feature_img {
+            position: relative;
+            z-index: 3;
+        }
+        .image-bg-circle {
+            position: absolute;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            top: 45%;
+            width: 565px;
+            height: 565px;
+            border-radius: 50%;
+            background: #e1cdff;
+        }
+    }
+    .feature_check {
+        ul {
+            li {
+                color: $titleColor;
+                font-weight: 500;
+                font-size: 16px;
+                font-family: $titleFont;
+                i {
+                    color: $primaryColor;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+// .sc-feature-area6
+.sc-feature-section-area6 {
+    position: relative;
+    margin-top: -60px;
+}

@@ -108,12 +108,10 @@ nav.template-main-menu>ul>li ul.sub-menu li a {
 .elementor-counter .elementor-counter-number-wrapper,
 h1,h2,h3,h4,h5,h6 {
 	font-family: '<?php echo esc_html( $typo_heading['font'] ); ?>', sans-serif;
-	font-weight : <?php echo esc_html( $typo_heading['regularweight'] ); ?>;
 }
 <?php if (!empty($typo_h1['font'])) { ?>
 h1 {
 	font-family: '<?php echo esc_html( $typo_h1['font'] ); ?>', sans-serif;
-	font-weight : <?php echo esc_html( $typo_h1['regularweight'] ); ?>;
 }
 <?php } ?>
 h1 {
@@ -130,7 +128,6 @@ h1 {
 <?php if (!empty($typo_h2['font'])) { ?>
 h2 {
 	font-family: '<?php echo esc_html( $typo_h2['font'] ); ?>', sans-serif;
-	font-weight : <?php echo esc_html( $typo_h2['regularweight'] ); ?>;
 }
 <?php } ?>
 h2 {
@@ -147,7 +144,6 @@ h2 {
 <?php if (!empty($typo_h3['font'])) { ?>
 h3 {
 	font-family: '<?php echo esc_html( $typo_h3['font'] ); ?>', sans-serif;
-	font-weight : <?php echo esc_html( $typo_h3['regularweight'] ); ?>;
 }
 <?php } ?>
 h3 {
@@ -164,7 +160,6 @@ h3 {
 <?php if (!empty($typo_h4['font'])) { ?>
 h4 {
 	font-family: '<?php echo esc_html( $typo_h4['font'] ); ?>', sans-serif;
-	font-weight : <?php echo esc_html( $typo_h4['regularweight'] ); ?>;
 }
 <?php } ?>
 h4 {
@@ -181,7 +176,6 @@ h4 {
 <?php if (!empty($typo_h5['font'])) { ?>
 h5 {
 	font-family: '<?php echo esc_html( $typo_h5['font'] ); ?>', sans-serif;
-	font-weight : <?php echo esc_html( $typo_h5['regularweight'] ); ?>;
 }
 <?php } ?>
 h5 {
@@ -192,7 +186,6 @@ h5 {
 <?php if (!empty($typo_h6['font'])) { ?>
 h6 {
 	font-family: '<?php echo esc_html( $typo_h6['font'] ); ?>', sans-serif;
-	font-weight : <?php echo esc_html( $typo_h6['regularweight'] ); ?>;
 }
 @media (max-width: 575px) {
 	h5 {
